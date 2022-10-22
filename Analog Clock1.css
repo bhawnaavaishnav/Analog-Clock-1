@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4d0c62 ;
+}
+
+.CL {
+    height: 52vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a16ab3;
+    border-radius: 50%;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 6px 8px;
+    background-color: rgb(253 53 53 / 51%);
+}
+
+#showClock {
+    background-color: #70707070;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
